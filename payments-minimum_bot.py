@@ -19,7 +19,7 @@ bot = Bot(BOT_TOKEN, parse_mode=types.ParseMode.MARKDOWN)
 dp = Dispatcher(bot, loop=loop)
 
 # Setup prices
-PRICE = types.LabeledPrice(label='Настоящая Машина Времени', amount=4200000)
+PRICE = types.LabeledPrice(label='Настоящая Машина Времени', amount=50000)
 
 
 @dp.message_handler(commands=['terms'])
